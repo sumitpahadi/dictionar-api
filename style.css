@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    background-image: url('./dict.jpg');
+    background-image: url('https://c1.wallpaperflare.com/preview/967/303/707/vintage-boards-wood-the-background-texture.jpg');
     color: white;
 }
 
@@ -38,6 +38,7 @@ body{
     padding: 20px;
     height: 200px;
     width: 100%;
+    flex-wrap: wrap;
    
   
    
@@ -55,6 +56,7 @@ input[type=text] {
      border: 1px solid black; /* Add a border to differentiate the input fields */
      height: 40px;
      width: 300px;
+     padding: 10px;
  }
 
 .data-meaning{
@@ -74,3 +76,26 @@ input[type=text] {
 }
 
 
+@media screen and (min-width: 317px) and (max-width: 570px) {
+
+
+    label{
+        margin-left: 20px;
+    
+    }
+    .button{
+        margin-top: 20px;
+        margin-left: 140px;
+        width: 100px;
+        
+    }
+    input[type=text]{
+        width: 200px;
+        padding: 10px;
+    }
+
+
+
+
+
+}
